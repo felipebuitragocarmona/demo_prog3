@@ -5,7 +5,10 @@ def multiplicacion(x,y):
     return x*y
 
 def division(x,y):
-    return x/y
+    if y==0:
+        return 0
+    else:
+        return x/y
 
 resultado=restar(7,5)
 print(resultado)
